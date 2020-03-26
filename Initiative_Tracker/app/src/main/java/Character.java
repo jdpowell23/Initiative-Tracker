@@ -1,28 +1,23 @@
 public class Character {
 
+    //Instantance variables
     private String name;
-    private String mod;
+    private int mod;
 
-    public Character(String Justin, String mod) {
-        this.name = name;
-        this.mod = mod;
+    //Instance Constructor
+    public Character(String initName, int initMod){
+
+        name = initName;
+        mod = initMod;
+
     }
 
     public String getName() {
         return name;
     }
 
-    public String getCrime() {
+    public int getCrime() {
         return mod;
-    }
-
-    public Character() {
-        name = "justin";
-    }
-
-    public static void main(String[] args) {
-        Character myObj = new Character(); // Create an object of class MyClass (This will call the constructor)
-        System.out.println(myObj.name); // Print the value of x
     }
 
 }

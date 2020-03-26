@@ -7,10 +7,13 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     public static void main(String[] args) {
-        Character char1 = new Character(justin, 1);
-        Character.getName();
 
+        //instantiate objects
+        Character Char1 = new Character("Justin", 1);
+
+        System.out.println(Char1.getName());
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
